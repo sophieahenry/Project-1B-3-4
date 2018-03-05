@@ -1,0 +1,41 @@
+body {
+    background-color: darkseagreen;
+    color: thistle;
+    font-family: sans-serif;
+}
+#about{
+    text-align: center;
+}
+
+header {
+    padding: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    
+    h1 {
+        cursor: pointer;
+        float: left;
+        font-size: 24px;
+        margin: 0px;
+        transition: .3s all;
+    }
+    ul {
+        float: right;
+        font-size: 24px; 
+        list-style: none;
+        padding: 0;
+        margin: 0px;
+        li {
+            cursor: pointer;
+            display: inline-block;
+            margin-left: 20px;
+            transition: .3s all;
+}
+    }
+    h1:hover,
+    li:hover {
+        transform: translateY(-5px);
+        transition: .3s all;
+        cursor: pointer;
+    }
+}
